@@ -17,7 +17,14 @@ const Restaurants = [
 ]
 
 //Pushes out message via button click
+
+document.addEventListener("click", getRanRest);
+
 function getRanRest() {    
-    // window.confirm(Restaurants[~~(Math.random()) * Restaurants.length]);
-    window.confirm(Restaurants[Math.floor(Math.random() * Restaurants.length)]);
+    // window.confirm(Restaurants[~~(Math.random() * Restaurants.length)]);
+    document.getElementById("printRest").innerHTML = (Restaurants[~~(Math.random() * Restaurants.length)]);
 }
+
+// //Get user input
+// let name = window.prompt("Enter restaurant name: ");
+// alert(onclick);

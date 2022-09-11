@@ -1,7 +1,7 @@
 body {
     background-color: beige;
     margin: 0;
-    background-image: url('background.png');
+    /* background-image: url('background.png'); */
     background-size: cover;
     height: 480px;
     padding-top: 40px; 
@@ -16,6 +16,11 @@ h1 {
     font: size 40px;
     font-family: Arial, Helvetica, sans-serif;
     color:rosybrown;
+}
+
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    color:#FEDE00;
 }
 
 button {
@@ -39,4 +44,8 @@ button.yellow {
 button:hover {
     background-color: plum;
     color: aliceblue;
+}
+
+button2 {
+
 }
