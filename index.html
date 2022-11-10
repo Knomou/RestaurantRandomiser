@@ -1,10 +1,10 @@
 <!DOCTYPE html>
     <head>
         <title> Restaurant Randomiser</title>
-        <link rel="shortcut icon" type="image/jpg" href="D:\RestaurantRandomiser\icecream.png"/>
+        <link rel="shortcut icon" type="image/jpg" href="icecream.png"/>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
-        <a href="D:\RestaurantRandomiser\icecream.png">
+        <a href="icecream.png">
             <img src="icecream.png" style="float:left;width:50px;height:50px;">
         </a>
         <h1>Restaurant randomiser</h1>
@@ -19,11 +19,13 @@
         <div style= padding-top:20px;>Select button for a random restaurant</div>
         <br>
         <!-- Button that returns restaurant -->
-        <button class="Randomise" type="button">Food</button>
+        <!-- <button class="Randomise" type="button" id="RandomiseButton">Food</button> -->
+        <button id="RandomiseButton">Food</button>
         <br>
         <div>
             <p>
-                Restaurant to go to is <h2><span id="printRest"></span></h2>
+                Restaurant to go to is
+                <h2 id="printRest">
             </p>
         </div>
         <!-- Form (text box) for restaurant input to add to list-->

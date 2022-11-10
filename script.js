@@ -18,6 +18,7 @@ const Restaurants = [
 
 //Pushes out message via button click
 
+const element = document.getElementById("RandomiseButton");
 document.addEventListener("click", getRanRest);
 
 function getRanRest() {    
